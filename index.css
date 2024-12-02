@@ -1,0 +1,210 @@
+h2{
+    text-align: center;
+    margin: 30px;
+}
+.main {
+    background-color: rgba(223, 222, 222, 0.963);
+    border: 2px solid;
+    display: flex;
+    flex-wrap: wrap;
+    padding: px;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.left,
+.right {
+    border: 2px solid;
+    background-color: white;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.content {
+
+    height: 110px;
+    width: 110px;
+    margin: auto;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(23, 197, 245);
+    margin-top: 200px;
+    box-shadow: 0px 2px 19px 2px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.right {
+    min-width: 300px;
+    max-width: 60%;
+    flex: 1 1 auto;
+    height: 500px;
+}
+
+label {
+
+    margin: 3px;
+    padding: 5px;
+    display: inline-block;
+    min-width: 240px;
+    max-width: 300;
+    flex: 1 1 flex;
+    font-size: 13px;
+    background-color: black;
+    color: aqua;
+    border-radius: 2px;
+}
+
+label:hover {
+    background-color: rgb(50, 50, 50);
+    cursor: pointer;
+}
+
+.left:has(#aa:checked)~.right .content {
+    transform: none;
+
+}
+
+.left:has(#bb:checked)~.right .content {
+    transform: rotate(10deg);
+
+}
+
+.left:has(#cc:checked)~.right .content {
+    transform: rotate(45deg);
+
+}
+
+.left:has(#dd:checked)~.right .content {
+    transform: rotate3d(1, 2, 1, 45deg);
+
+}
+
+.left:has(#ee:checked)~.right .content {
+    transform: rotate3d(0, 1, 0, 60deg);
+
+}
+
+.left:has(#ff:checked)~.right .content {
+    transform: rotateX(45deg);
+}
+
+.left:has(#gg:checked)~.right .content {
+    transform: rotateX(100deg);
+
+}
+
+.left:has(#hh:checked)~.right .content {
+    transform: rotateY(45deg);
+
+}
+
+.left:has(#ii:checked)~.right .content {
+    transform: rotateY(80deg);
+
+}
+
+.left:has(#jj:checked)~.right .content {
+    transform: rotateZ(45deg);
+
+}
+
+.left:has(#kk:checked)~.right .content {
+    transform: rotateZ(90deg);
+
+}
+
+.left:has(#ll:checked)~.right .content {
+    transform: skew(20deg, 20deg);
+
+}
+
+.left:has(#mm:checked)~.right .content {
+    transform: skew(30deg, 30deg);
+
+}
+
+.left:has(#nn:checked)~.right .content {
+    transform: skewX(30deg);
+
+}
+
+.left:has(#oo:checked)~.right .content {
+    transform: skewX(40deg);
+
+}
+
+.left:has(#pp:checked)~.right .content {
+    transform: skewY(30deg);
+
+}
+
+.left:has(#qq:checked)~.right .content {
+    transform: skewY(40deg);
+
+}
+
+.left:has(#rr:checked)~.right .content {
+    transform: translate(20px, 10px);
+
+}
+
+.left:has(#ss:checked)~.right .content {
+    transform: translate(20px, 20px);
+
+}
+
+.left:has(#tt:checked)~.right .content {
+    transform: scale(2, 2);
+
+}
+
+.left:has(#uu:checked)~.right .content {
+    transform: scale(2.5, 3);
+
+}
+
+.left:has(#vv:checked)~.right .content {
+    transform: scaleX(1.5);
+
+}
+
+.left:has(#ww:checked)~.right .content {
+    transform: scaleX(50%);
+
+}
+
+.left:has(#xx:checked)~.right .content {
+    transform: scaleY(1.5);
+
+}
+
+
+.left:has(#yy:checked)~.right .content {
+    transform: scaleY(50%);
+
+}
+
+
+
+.left:has(#zz:checked)~.right .content {
+    transform: matrix(0.866, 0.7, -0.8, 0.866, 0, 0);
+
+}
+
+.left:has(#ab:checked)~.right .content {
+    transform: matrix(0.586, 0.8, -0.8, 0.586, 0, 0);
+
+}
+
+.left:has(#bc:checked)~.right .content {
+    transform: matrix(0.586, 0.8, -0.8, 0.586, 40, 30);
+
+}
