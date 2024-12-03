@@ -19,7 +19,7 @@ h2{
     border: 2px solid;
     background-color: white;
     padding: 5px;
-    box-sizing: border-box;
+    
     margin: auto;
 }
 
@@ -46,6 +46,7 @@ h2{
     max-width: 60%;
     flex: 1 1 auto;
     height: 500px;
+    box-sizing: border-box;
 }
 
 label {
@@ -53,7 +54,7 @@ label {
     margin: 3px;
     padding: 5px;
     display: inline-block;
-    min-width: 240px;
+    min-width: 265px;
     max-width: 300;
     flex: 1 1 flex;
     font-size: 13px;
